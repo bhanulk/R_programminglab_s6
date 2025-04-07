@@ -61,7 +61,7 @@ run_svm_program <- function() {
 
 run_decision_tree_program <- function() {
   
-  play_tennis_data <- read.csv("D:/r_program_s6/tennis.csv")
+  play_tennis_data <- read.csv("tennis.csv")
   
   play_tennis_data$Outlook <- factor(play_tennis_data$Outlook, levels = c("Sunny", "Overcast", "Rain"))
   play_tennis_data$Temperature <- factor(play_tennis_data$Temperature, levels = c("Hot", "Mild", "Cool"))
